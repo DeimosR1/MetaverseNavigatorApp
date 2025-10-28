@@ -1,0 +1,112 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Navigator : MonoBehaviour
+{
+    
+    public bool _correctname = false;
+    public bool _correctplace = false;
+    public bool _correctdistortion = false;
+    
+    string name = "";
+    string place = "";
+    string distortion = "";
+    
+   public void SetInputText(string name)
+   {
+       Debug.Log(name);
+       
+     
+   }
+   
+   public void namecheck1 (string name){
+       
+   if (name == "Victor"){
+       _correctname = true;
+       Debug.Log("Target Found");
+    }
+    
+    else {
+        
+        _correctname = false;
+        }
+     if (_correctname == true){
+           
+           Debug.Log("True");
+           }
+    }
+    
+    public void placecheck1 (string place){
+       
+   if (place == "Victor"){
+       _correctplace = true;
+       Debug.Log("Place Found");
+    }
+    
+    else {
+        
+        _correctplace = false;
+        }
+     if (_correctplace == true){
+           
+           Debug.Log("True Place");
+           }
+    }
+    
+    public void distortcheck1 (string distortion){
+       
+   if (distortion == "Overwatch"){
+       _correctdistortion = true;
+       Debug.Log("Distortion Found");
+    }
+    
+    else {
+        
+        _correctdistortion = false;
+        }
+     if (_correctdistortion == true){
+           
+           Debug.Log("True distortion");
+           }
+    }
+    
+    public void mementospublic void distortcheck1 (string distortion){
+       
+   if (place == "Overwatch"){
+       _correctdistortion = true;
+       Debug.Log("Distortion Found");
+    }
+    
+    else {
+        
+        _correctdistortion = false;
+        }
+     if (_correctdistortion == true){
+           
+           Debug.Log("True distortion");
+           }
+    } (string place){
+       
+   if (place == "Mementos"){
+       _correctdistortion = true;
+       _correctname = true;
+       _correctplace = true;
+       Debug.Log("Distortion Found");
+    }
+    
+    else {
+        
+        _correctdistortion = false;
+        }
+    }
+    
+     void candidatefound () {
+        
+        if (_correctname = true && _correctplace = true && _correctdistortion = true){
+            
+            audio.Source.PlayOneShot(TargetFound);
+            }
+        }
+}
