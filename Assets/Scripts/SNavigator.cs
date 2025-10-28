@@ -22,18 +22,6 @@ public class SNavigator : MonoBehaviour
     {
         switch (name)
         {
-            case "Deimos R.":
-                name = "Deimos R.";
-                lastname.text = name;
-                _correctname = true;
-                break;
-
-            case "Triza Chavez":
-                name = "Triza Chavez";
-                lastname.text = name;
-                _correctname = true;
-                break;
-
 
             case "Suguru Kamoshida":
                 name = "Suguru Kamoshida";
@@ -54,14 +42,6 @@ public class SNavigator : MonoBehaviour
                 _correctname = true;
                 break;
 
-            case "Victor Castaneda":
-                name = "Victor Castaneda";
-                lastname.text = name;
-                _correctname = true;
-                break;
-
-
-
             default:
                 name = "";
                 lastname.text = name;
@@ -74,19 +54,6 @@ public class SNavigator : MonoBehaviour
     {
         switch (place)
         {
-            case "Dorms":
-                place = "Dorms";
-                lastplace.text = place;
-                _correctplace = true;
-                break;
-
-            case "UIW":
-                place = "UIW";
-                lastplace.text = place;
-                _correctplace = true;
-                break;
-
-
             case "Shujin Academy":
                 place = "Shujin Academy";
                 lastplace.text = place;
@@ -102,12 +69,6 @@ public class SNavigator : MonoBehaviour
 
             case "Shibuya":
                 place = "Shibuya";
-                lastplace.text = place;
-                _correctplace = true;
-                break;
-
-            case "San Patricio Plus Calle zircon":
-                place = "San Patricio Plus Calle zircon";
                 lastplace.text = place;
                 _correctplace = true;
                 break;
@@ -135,18 +96,6 @@ public class SNavigator : MonoBehaviour
     {
         switch (distorsion)
         {
-            case "Courthouse":
-                distorsion = "Courthouse";
-                lastdistorsion.text = distorsion;
-                _correctdistorsion = true;
-                break;
-
-            case "Bakugou":
-                distorsion = "Bakugou";
-                lastdistorsion.text = distorsion;
-                _correctdistorsion = true;
-                break;
-
 
             case "Castle":
                 distorsion = "Castle";
@@ -163,12 +112,6 @@ public class SNavigator : MonoBehaviour
 
             case "Vault":
                 distorsion = "Vault";
-                lastdistorsion.text = distorsion;
-                _correctdistorsion = true;
-                break;
-
-            case "Hanekawa":
-                distorsion = "Hanekawa";
                 lastdistorsion.text = distorsion;
                 _correctdistorsion = true;
                 break;
