@@ -7,7 +7,6 @@ __A Fanmade Recreation of the Metaverse Navigator App seen in [Persona 5](https:
 |Engine|Version|
 |------|-------|
 |Unity|6000.0.25f1|
-____
 
 ## Function:
 This proyect has these basic main functions:
