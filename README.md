@@ -9,6 +9,9 @@ __A Fanmade Recreation of the Metaverse Navigator App seen in [Persona 5](https:
 |Unity|6000.0.25f1|
 |Unity|6000.2.8f1|
 
+## Systems:
+__Currently, the project has shown to only work on Android Devices.__
+
 ## Function:
 This proyect has these basic main functions:
 * Identifying when the correct sequence of name, place and distortion is input in the correct fields.
