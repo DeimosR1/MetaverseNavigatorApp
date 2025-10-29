@@ -12,13 +12,16 @@ public class History : MonoBehaviour
  
     void Start()
     {
+        SetHistory();
+    }
+
+    public void SetHistory()
+    {
         PlayerPrefs.SetString("LastName", FindFirstObjectByType<SNavigator>().name);
         lastname.text = PlayerPrefs.GetString("LastName");
         PlayerPrefs.SetString("LastPlace", FindFirstObjectByType<SNavigator>().place);
         lastplace.text = PlayerPrefs.GetString("LastPlace");
         PlayerPrefs.SetString("LastDistorsion", FindFirstObjectByType<SNavigator>().distortion);
         lastdistortion.text = PlayerPrefs.GetString("LastDistorsion");
-
-     
-     }
+    }
 }

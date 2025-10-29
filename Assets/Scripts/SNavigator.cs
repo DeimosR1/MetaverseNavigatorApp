@@ -126,8 +126,6 @@ public class SNavigator : MonoBehaviour
 
     public void CheckCandidate()
     {
-
-
         if (_correctname == true && _correctplace == true && _correctdistorsion == true)
         {
 
